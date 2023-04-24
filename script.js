@@ -60,6 +60,7 @@ resetBtn.addEventListener("click",()=>{
 	para.style.display = "none";
 	resetBtn.style.display = "none";
 	verifyBtn.style.display = "none";
+	clickCount = 0;
 });
 
 verifyBtn.addEventListener("click",(e)=>{
